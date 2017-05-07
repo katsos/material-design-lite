@@ -163,7 +163,7 @@
   cursor: pointer;
 
   overflow: hidden;
-  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+  -webkit-mask-image: radial-gradient(circle, white, black);
 
   & .mdl-ripple {
     background: $checkbox-color;

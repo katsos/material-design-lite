@@ -142,7 +142,7 @@ input.mdl-button[type="submit"] {
     & .mdl-button__ripple-container {
       border-radius: 50%;
       // Fixes clipping bug in Safari.
-      -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+      -webkit-mask-image: radial-gradient(circle, white, black);
     }
 
     &:active {
@@ -215,7 +215,7 @@ input.mdl-button[type="submit"] {
     & .mdl-button__ripple-container {
       border-radius: 50%;
       // Fixes clipping bug in Safari.
-      -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+      -webkit-mask-image: radial-gradient(circle, white, black);
     }
   }
 

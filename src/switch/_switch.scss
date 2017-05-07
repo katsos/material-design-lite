@@ -176,7 +176,7 @@
   cursor: pointer;
 
   overflow: hidden;
-  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+  -webkit-mask-image: radial-gradient(circle, white, black);
 
   transition-duration: 0.40s;
   transition-timing-function: step-end;
